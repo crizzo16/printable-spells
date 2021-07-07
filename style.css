@@ -1,0 +1,18 @@
+.paper {
+    height: 8.5in;
+    width: 11in;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.printable {
+    border: 1px solid lime;
+    height: 8in;
+    width: 10.5in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

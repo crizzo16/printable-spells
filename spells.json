@@ -1,0 +1,34 @@
+[
+    {
+        "charID": 2,
+        "charName": "Corby Jayne",
+        "race": "Half-Elf",
+        "class": "Warlock",
+        "subclass": "The Star",
+        "spells": [
+            {
+                "id": 0,
+                "name": "Eldritch Blast",
+                "level": 0,
+                "school": "Evocation",
+                "time": "1 action",
+                "range": "120 feet",
+                "components": [true, true, false, ""],
+                "duration": "Instantaneous",
+                "text": ["A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage"],
+                "higherLevels": []
+            },
+            {
+                "id": 1,
+                "name": "Magic Mic",
+                "level": 0,
+                "school": "Transmutation",
+                "time": "1 action",
+                "range": "Self",
+                "components": [true, true, false, ""],
+                "duration": "1 minute",
+                "text": ["You conjure into existence a spectral microphone, which can hover in front of you or be held in one hand. Speaking through the microphone amplifies your voice to a booming level and allows you to distory your voice. This distortion can change your voice's pitch, cause an echo, make it sound metallic, add a layer of statis noise, or any other simple audio effect. It can't be used to completely duplicate another person's voice. You can change the mic's volume and change the nature of the distortion on your turn )no action required). YOur voice also projects through radio waves allowing you to be heard on comm sets and communication systems within 10 miles.", "You can use your action to shout into the mic. When you do so, each creature within 10 feet of you must make a Constitution Saving throw or take 1d4 thunder damage."]
+            }
+        ]
+    }
+]

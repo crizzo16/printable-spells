@@ -1,47 +1,134 @@
-[
-    {
-        "charID": 2,
-        "charName": "Corby Jayne",
-        "race": "Half-Elf",
-        "class": "Warlock",
-        "subclass": "The Star",
-        "spells": [
-            {
-                "id": 0,
-                "name": "Eldritch Blast",
-                "level": 0,
-                "school": "Evocation",
-                "time": "1 action",
-                "range": "120 feet",
-                "components": [true, true, false, ""],
-                "duration": "Instantaneous",
-                "text": ["A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage"],
-                "higherLevels": []
-            },
-            {
-                "id": 1,
-                "name": "Magic Mic",
-                "level": 0,
-                "school": "Transmutation",
-                "time": "1 action",
-                "range": "Self",
-                "components": [true, true, false, ""],
-                "duration": "1 minute",
-                "text": ["You conjure into existence a spectral microphone, which can hover in front of you or be held in one hand. Speaking through the microphone amplifies your voice to a booming level and allows you to distory your voice. This distortion can change your voice's pitch, cause an echo, make it sound metallic, add a layer of statis noise, or any other simple audio effect. It can't be used to completely duplicate another person's voice. You can change the mic's volume and change the nature of the distortion on your turn )no action required). YOur voice also projects through radio waves allowing you to be heard on comm sets and communication systems within 10 miles.", "You can use your action to shout into the mic. When you do so, each creature within 10 feet of you must make a Constitution Saving throw or take 1d4 thunder damage."],
-                "higherLevels": []
-            },
-            {
-                "id": 13,
-                "name": "Arms of Hadar",
-                "level": 1,
-                "school": "Conjuration",
-                "time": "1 action",
-                "range": "Self (10-foot radius)",
-                "components": [true, true, false, ""],
-                "duration": "Instantaneous",
-                "text": ["You invoke the power of Hadar, the dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes 3d6 necrotic damage and can't take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect."],
-                "higherLevels": []
-            }
-        ]
-    }
-]
+[{
+    "charID": 2,
+    "charName": "Corby Jayne",
+    "race": "Half-Elf",
+    "class": "Warlock",
+    "subclass": "The Star",
+    "spells": [{
+            "id": 0,
+            "name": "Eldritch Blast",
+            "level": 0,
+            "school": "Evocation",
+            "time": "1 action",
+            "range": "120 feet",
+            "components": [true, true, false, ""],
+            "duration": "Instantaneous",
+            "ritual": false,
+            "concentration": false,
+            "text": ["A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage"],
+            "higherLevels": []
+        },
+        {
+            "id": 1,
+            "name": "Magic Mic",
+            "level": 0,
+            "school": "Transmutation",
+            "time": "1 action",
+            "range": "Self",
+            "components": [true, true, false, ""],
+            "duration": "1 minute",
+            "ritual": false,
+            "concentration": false,
+            "text": ["You conjure into existence a spectral microphone, which can hover in front of you or be held in one hand. Speaking through the microphone amplifies your voice to a booming level and allows you to distory your voice. This distortion can change your voice's pitch, cause an echo, make it sound metallic, add a layer of statis noise, or any other simple audio effect. It can't be used to completely duplicate another person's voice. You can change the mic's volume and change the nature of the distortion on your turn )no action required). YOur voice also projects through radio waves allowing you to be heard on comm sets and communication systems within 10 miles.", "You can use your action to shout into the mic. When you do so, each creature within 10 feet of you must make a Constitution Saving throw or take 1d4 thunder damage."],
+            "higherLevels": []
+        },
+        {
+            "id": 2,
+            "name": "Light",
+            "level": 0,
+            "school": "Evocation",
+            "time": "1 action",
+            "range": "Touch",
+            "components": [true, false, true, "stuff"],
+            "duration": "1 hour",
+            "ritual": false,
+            "concentration": false,
+            "text": ["You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.", "If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell."],
+            "higherLevels": []
+        },
+        {
+            "id": 3,
+            "name": "Produce Flame",
+            "level": 0,
+            "school": "Conjuration",
+            "time": "1 action",
+            "range": "Self",
+            "components": [true, true, false, ""],
+            "duration": "10 minutes",
+            "ritual": false,
+            "concentration": false,
+            "text": ["A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.", "You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage."],
+            "higherLevels": []
+        },
+        {
+            "id": 4,
+            "name": "Disguise Self",
+            "level": 0,
+            "school": "Mask of Many Faces",
+            "time": "1 action",
+            "range": "Self",
+            "components": [true, true, false, ""],
+            "duration": "1 hour",
+            "ritual": false,
+            "concentration": false,
+            "text": ["You make yourself - including your clothing, armor, weapons, and other belongings on your person - look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or inbetween. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extned of the illusion is up to you.", "The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.", "To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC."],
+            "higherLevels": []
+        },
+        {
+            "id": 5,
+            "name": "Arms of Hadar",
+            "level": 1,
+            "school": "Conjuration",
+            "time": "1 action",
+            "range": "Self (10-foot radius)",
+            "components": [true, true, false, ""],
+            "duration": "Instantaneous",
+            "ritual": false,
+            "concentration": false,
+            "text": ["You invoke the power of Hadar, the dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes 3d6 necrotic damage and can't take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect."],
+            "higherLevels": []
+        },
+        {
+            "id": 6,
+            "name": "Stellar Rebuke",
+            "level": 1,
+            "school": "Evocation",
+            "time": "1 reaction, which you take in response to being damaged by a creature within 60ft of you that you can see",
+            "range": "60 feet",
+            "components": [true, true, false, ""],
+            "duration": "Instantaneous",
+            "ritual": false,
+            "concentration": false,
+            "text": ["You point your finger, and the creature that damaged you is momentarily surrounded by stellar flames. The creature must make a Dexterity saving throw. It takes 3d10 fire damage on a failed save, or half as much damage on a successful one.", "This spell is a re-skinned <span style='font-weight:bold;'>Hellish Rebuke</span>, where the flames come from your connection with the stars instead of hell."],
+            "higherLevels":[]
+        },
+        {
+            "id": 7,
+            "name": "Repulsor Ring",
+            "level": 2,
+            "school": "Abjuration",
+            "time": "1 action",
+            "range": "5 feet",
+            "components": [true, true, true, "a piece of chalk"],
+            "duration": "Concentration, up to 1 minute",
+            "ritual": false,
+            "concentration": true,
+            "text": ["You outline a 5-foot diameter circle on the groun, which is warded against intruders. Only creatures you choose can step within the circle. Any ranged attack roll made against a target within the circle has disadvantage. If a hostile creature makes a melee attack against a target within the circle, the attacker is pushed back 10 feel immediately after the attack."],
+            "higherLevels": []
+        },
+        {
+            "id": 8,
+            "name": "Worldseek",
+            "level": 1,
+            "school": "Divination",
+            "time": "1 action",
+            "range": "Self",
+            "components": [true, true, true, "a spyglass"],
+            "duration": "Concentration, up to 1 hour",
+            "ritual": true,
+            "concentration": true,
+            "text": ["This spell reveals the path to the nearest planet to you. For the duration, you know the direction and the distance to the nearest planet, planetoid, or moon, If you cast this spell while you're on a planet, planetoid, or moon, the spell fails."],
+            "higherLevels": []
+        }
+    ]
+}]

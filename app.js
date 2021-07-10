@@ -48,6 +48,7 @@ let focus = {
                         circle.addClass("filled");
                         section.addClass("comp-material");
                         let spandral = $("<span>").text(" (" + item.components[3] + ")");
+                        if (item.components[3].length > 20) spandral.addClass("small-text");
                         secName.append(spandral);
                     }
                 }

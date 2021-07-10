@@ -110,8 +110,8 @@ p {
 }
 
 .circle {
-    height: 15px;
-    width: 15px;
+    height: 15px !important;
+    width: 15px !important;
     border: 1px solid black;
     border-radius: 100%;
     margin: 2px;
@@ -119,6 +119,10 @@ p {
 
 .filled {
     background: black;
+}
+
+.small-text {
+    font-size: 10px;
 }
 
 .cutout-top {

@@ -16,6 +16,7 @@
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+    flex-flow: column wrap;
     align-items: flex-start;
 }
 
@@ -82,14 +83,30 @@
     align-items: center;
 }
 
+.comp-material {
+    width: 100%;
+}
+
+.comp-left {
+    width: 40%;
+}
+.comp-right {
+    width: 60%;
+}
+
 .trait-sec {
     text-align: center;
     width: 48%;
     margin: 1%;
 }
 
+p {
+    margin: 2px;
+}
+
 .trait-sec-name {
     border-bottom: 1px solid black;
+    font-weight: bold; 
 }
 
 .circle {
